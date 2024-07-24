@@ -1,0 +1,49 @@
+
+------ Classification report of Training Data using augm_text_default_bn_gpt_neo ------
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3044
+           1       0.98      0.98      0.98       419
+
+    accuracy                           0.99      3463
+   macro avg       0.99      0.99      0.99      3463
+weighted avg       0.99      0.99      0.99      3463
+
+Balanced Accuracy:  0.9877818251954626
+F2 score:  [0.99704336 0.97852029]
+------ Classification report of Test Data using augm_text_default_bn_gpt_neo ------
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99      1472
+           1       0.97      0.96      0.96       234
+
+    accuracy                           0.99      1706
+   macro avg       0.98      0.98      0.98      1706
+weighted avg       0.99      0.99      0.99      1706
+
+Balanced Accuracy:  0.9762547612411743
+F2 score:  [0.99483906 0.95972579]
+------ Classification report of Training Data using augm_text_default_mn_gpt_neo ------
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3044
+           1       0.99      0.97      0.98       419
+
+    accuracy                           0.99      3463
+   macro avg       0.99      0.98      0.99      3463
+weighted avg       0.99      0.99      0.99      3463
+
+Balanced Accuracy:  0.9823080107508334
+F2 score:  [0.9975046  0.97029229]
+------ Classification report of Test Data using augm_text_default_mn_gpt_neo ------
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99      1472
+           1       0.97      0.95      0.96       234
+
+    accuracy                           0.99      1706
+   macro avg       0.98      0.97      0.98      1706
+weighted avg       0.99      0.99      0.99      1706
+
+Balanced Accuracy:  0.9723209308807135
+F2 score:  [0.99511268 0.95360825]
